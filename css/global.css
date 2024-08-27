@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: blue;
+    color: rgb(0, 17, 255);
+}
+
+.site-header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    text-align: center;
+}
