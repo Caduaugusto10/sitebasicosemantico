@@ -7,12 +7,23 @@ body {
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
     color: blue;
-    color: rgb(0, 17, 255);
+    color: rgb(0, 0, 0);
 }
 
 .site-header {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding: 1rem 0;
+    padding: 1em 0;
     text-align: center;
+}
+
+.site-title {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
